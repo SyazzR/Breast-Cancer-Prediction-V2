@@ -1,20 +1,20 @@
-## Breast-Cancer-Prediction-V2
+# Breast-Cancer-Prediction-V2
 
 This is the updated version of the previous web application for breast cancer prediction system (The project can be found in Breast_Cancer_Prediction repositories).
 This web developed using Flask framework. 
 
 
-##Project Overview
+## Project Overview
 
 From the Open Data Obtained from Kaggle Repositories, the Breast Cancer Wisconsin Dataset is choosen to be used in this project. Data processing and model training is performed on Jupyter Notebook
 
 
-##Installation
+## Installation
 
 All libraries are available in Anaconda distribution of Python
 
 
-##Dataset
+## Dataset
 
 The dataset has 3 attribute, with Ten real-valued features are computed for each cell nucleus:
 
@@ -38,8 +38,10 @@ i) symmetry
 
 j) fractal dimension ("coastline approximation" - 1)
 
-##File description
+## File description
 
-'model.pkl : the classification model
-'app.py' : Flask API that bind between the classification model and the web page
-templates: - html file
+- 'model.pkl : the classification model
+
+- 'app.py' : Flask API that bind between the classification model and the web page
+
+- templates: - contain html file
